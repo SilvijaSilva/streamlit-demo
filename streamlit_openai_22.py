@@ -10,7 +10,7 @@ load_dotenv()  # take environment variables
 # from .env file
 # Load environment variables from .env file
 
-token = os.getenv("SECRET")  # Replace with your actual token
+token = os.getenv("MY_TOKEN")  # Replace with your actual token
 endpoint = "https://models.github.ai/inference"
 model = "openai/gpt-4.1-nano"
 
